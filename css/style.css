@@ -1,0 +1,169 @@
+body {
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1160px;
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #222222;
+    padding: 18px 0;
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header-logo {
+    margin-right: 41px;
+    text-decoration: none;
+}
+
+.header-item:not(:last-child) {
+    margin-right: 33px;
+}
+
+
+/* intro */
+
+.intro {
+    background-color: #F1E4E6;
+    height: 764px;
+}
+
+.intro-item {
+    max-width: 377px;
+    padding-left: 20px;
+    border-left: 12px solid #F16D7F;
+}
+
+.text-color {
+    color: #F16D7F;
+}
+
+.item-text {
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: uppercase;
+    color: 222222;
+}
+
+.intro-subtitle {
+    font-size: 32px;
+}
+
+.intro-wrap {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url("../img/intro-man.png");
+    background-repeat: no-repeat;
+    background-position: -208px bottom;
+}
+
+/* range */
+
+.range-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    height: 260px;
+    background: #211616;
+}
+
+.range-item:not(:last-child) {
+    width: 360px;
+    margin: 0 0 30px 0;
+}
+.range-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 65px;
+    margin-bottom: 96px;
+}
+
+/* fetured */
+
+.fetured-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fetured-list {
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+}
+
+.fetured-subtext {
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+    margin-top: 6px;
+}
+
+.fetured-text {
+    text-align: center;
+}
+
+.fetured-box {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 48px 0;
+}
+
+.fetured-item {
+    max-width: 360px;
+    width: 100%;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    background-color: #F8F8F8;
+}
+
+.fetured-title {
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+    margin-top: 25px;
+    margin-bottom: 12px;
+    margin-right: 16px;
+}
+
+.fetured-subtitle {
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+    margin-bottom: 18px;
+    margin-right: 16px;
+}
+
+.fetured-price {
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+    margin-right: 16px;
+    margin-bottom: 20px;
+}
+
+
