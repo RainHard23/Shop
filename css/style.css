@@ -56,14 +56,14 @@ body {
 }
 
 .item-text {
-    font-size: 48px;
-    line-height: 58px;
+    font-size: 44px;
     text-transform: uppercase;
     color: 222222;
 }
 
 .intro-subtitle {
-    font-size: 32px;
+    font-size: 28px;
+    color: #222222;
 }
 
 .intro-wrap {
@@ -87,7 +87,9 @@ body {
     padding: 20px;
     height: 260px;
     background: #211616;
+    
 }
+
 
 .range-item:not(:last-child) {
     width: 360px;
